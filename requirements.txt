@@ -3,5 +3,3 @@ numpy
 matplotlib
 rasterio
 Pillow
-datetime
-random
