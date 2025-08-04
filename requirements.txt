@@ -1,6 +1,3 @@
-streamlit
-numpy
-matplotlib
-rasterio
-Pillow
-opencv-python-headless
+streamlit==1.29.0
+opencv-python-headless==4.9.0.80
+numpy==1.24.4
