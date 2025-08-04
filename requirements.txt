@@ -1,0 +1,6 @@
+streamlit
+numpy
+matplotlib
+rasterio
+Pillow
+opencv-python
