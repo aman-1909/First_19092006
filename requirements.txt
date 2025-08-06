@@ -1,5 +1,0 @@
-streamlit
-pillow
-pandas
-numpy
-pydeck
