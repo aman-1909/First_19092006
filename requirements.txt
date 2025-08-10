@@ -1,7 +1,0 @@
-streamlit
-numpy
-pandas
-folium
-streamlit-folium
-matplotlib
-reportlab
