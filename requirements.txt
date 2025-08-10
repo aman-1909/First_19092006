@@ -1,0 +1,8 @@
+streamlit
+numpy
+matplotlib
+folium
+streamlit-folium
+reportlab
+selenium
+Pillow
