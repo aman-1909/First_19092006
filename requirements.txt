@@ -1,7 +1,9 @@
 streamlit
+streamlit-folium
+folium
 plotly
 pandas
 numpy
 matplotlib
 scikit-learn
-folium
+
