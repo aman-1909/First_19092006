@@ -1,9 +1,0 @@
-streamlit
-streamlit_folium
-folium
-plotly
-pandas
-numpy
-matplotlib
-scikit-learn
-
