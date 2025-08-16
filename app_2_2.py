@@ -6,11 +6,9 @@ from rasterio.plot import show
 from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
 
----------------------------
+#Helper functions
 
-Helper functions
 
----------------------------
 
 def load_dem(file): """Load DEM file (.npy or .tif)""" if file.name.endswith(".npy"): return np.load(file) elif file.name.endswith(".tif"): with rasterio.open(file) as src: return src.read(1) else: st.error("Unsupported file format. Please upload .npy or .tif") return None
 
@@ -32,11 +30,8 @@ pdf.output(buffer)
 buffer.seek(0)
 return buffer
 
----------------------------
 
-Streamlit UI
-
----------------------------
+#Streamlit UI
 
 st.title("🌍 Eco-SandWatch Prototype") st.write("Upload BEFORE and AFTER DEM files (.npy or .tif) to detect illegal sand mining.")
 
