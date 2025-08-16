@@ -1,9 +1,10 @@
 import streamlit as st
-import numpy as np 
-import matplotlib.pyplot as plt 
-from rasterio import rasterio.plot
-import show from fpdf 
-import FPDF import io
+import numpy as np
+import matplotlib.pyplot as plt
+import rasterio
+from rasterio.plot import show
+from reportlab.lib.pagesizes import letter
+from reportlab.pdfgen import canvas
 
 ---------------------------
 
